@@ -11,7 +11,7 @@ module.exports = {
   LANG: process.env.LANG || "EN",
   AUTH_TOKEN: "",
   HANDLERS:
-    process.env.HANDLER === "false" || process.env.HANDLER === "null"
+    process.env.HANDLER === "false" || process.env.HANDLER === "🧋"
       ? "^"
       : "^[#]",
   RMBG_KEY: process.env.RMBG_KEY || false,
@@ -22,12 +22,12 @@ module.exports = {
   GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
   AUTHOR: process.env.AUTHOR || "X-Electra",
   SUDO:
-    process.env.SUDO || "918113921898,919598157259,918590508376,919383400679",
+    process.env.SUDO || "917907387121,919744108970",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
-  OWNER_NAME: process.env.OWNER_NAME || "Neeraj-X0",
+  OWNER_NAME: process.env.OWNER_NAME || "ZENITSU",
   HEROKU: toBool(process.env.HEROKU) || false,
-  BOT_NAME: process.env.BOT_NAME || "X-Asena",
+  BOT_NAME: process.env.BOT_NAME || "NEZUKO",
   AUTO_READ: toBool(process.env.AUTO_READ) || false,
   AUTO_STATUS_READ: toBool(process.env.AUTO_STATUS_READ) || false,
   PROCESSNAME: process.env.PROCESSNAME || "x-asena",
